@@ -1,6 +1,6 @@
 const { fromDollarToYen, fromEuroToDollar, fromYenToPound } = require('./app.js');
 
-test("One dollar should be 5.56 yens", () => {
+test("One dollar should be 146.26 yens", () => {
     const yens = fromDollarToYen(1);
     const expectedYens = (1 / 1.07) * 156.5;
 
